@@ -39,6 +39,7 @@ class Auto:
         for i in self.asientos:
             if i is not None:
                 contador+=1
+        return contador
 
     def verificarIntegridad(self):
         if self.registro != self.motor.registro:
